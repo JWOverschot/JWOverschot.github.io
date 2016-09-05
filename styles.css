@@ -8,14 +8,17 @@ body::after {
   content: "";
   background-image: url(background_img.jpg);
   background-size: cover;
-  background-attachment: fixed;
   opacity: 0.8;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
+}
+
+header:hover {
+	-webkit-filter: blur(2px);
 }
 
 main {
@@ -52,9 +55,16 @@ a:active {
 	margin-right: -8px;
 }
 
-h1{
-	/*float: left;*/
+h1 {
 	font-size: 6em;
-	margin-top: -160px;
+	margin-top: -170px;
 	margin-left: 15px;
+}
+
+.list {
+	list-style-type: none;
+}
+
+footer {
+	margin-top: 50px;
 }
