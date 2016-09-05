@@ -8,6 +8,7 @@ body::after {
   content: "";
   background-image: url(background_img.jpg);
   background-size: cover;
+  background-attachment: fixed;
   opacity: 0.8;
   top: 0;
   left: 0;
@@ -63,8 +64,9 @@ h1 {
 
 .list {
 	list-style-type: none;
+	line-height: 25px;
 }
 
 footer {
-	margin-top: 50px;
+	margin-top: 65px;
 }
