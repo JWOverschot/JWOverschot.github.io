@@ -2,23 +2,18 @@ body {
     color: white;
 	font-family: 'Josefin Sans', sans-serif;
 	background-color: black;
+	background-image: url(background_img.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
-body::after {
-  content: "";
-  background-image: url(background_img.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: 0.8;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-header:hover {
+h1:hover {
 	-webkit-filter: blur(2px);
 }
 
@@ -50,7 +45,7 @@ a:active {
 	height: 0;
 	border-style: solid;
 	border-width: 200px 200px 0 0;
-	border-color: #007bff transparent transparent transparent;
+	border-color: #0db4f2 transparent transparent transparent;
 	margin-top: -8px;
 	margin-left: -8px;
 	margin-right: -8px;
