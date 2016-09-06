@@ -86,7 +86,6 @@ h1:hover {
 
 footer {
 	background-color: black;
-	margin-top: 65px;
-	padding: 5px;
-	margin-left: -8px;
+	margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
 }
