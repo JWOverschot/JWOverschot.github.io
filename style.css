@@ -45,7 +45,7 @@ html, body {
 
 main {
 	width: 70%;
-	position: fixed;
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -87,15 +87,6 @@ a:active {
     color: #ff4000;
 }
 
-@keyframes lines {
-    from {top: -120%;
-	left: -120%;
-}
-    to {top: 120%;
-	left: 120%;
-}
-}
-
 @keyframes linesphone {
     from {top: -63%;
 	left: -250%;
@@ -121,5 +112,9 @@ a:active {
     	width: 220%;
     	animation-name: lines;
 		transform: rotate(-50deg);
+	}
+	nav a {
+		width: 20%;
+		text-align: center;
 	}
 }
