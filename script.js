@@ -26,7 +26,7 @@ function mOverInfo() {
 	document.getElementById("text").innerHTML = "Info";
 }
 function mOverBook() {
-	document.getElementById("text").innerHTML = "Book";
+	document.getElementById("text").innerHTML = "Opleiding";
 }
 function mOverFolder() {
 	document.getElementById("text").innerHTML = "Folder";

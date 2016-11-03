@@ -84,7 +84,7 @@ a:hover {
 }
 
 a:active {
-    color: red;
+    color: #ff4000;
 }
 
 @keyframes lines {
