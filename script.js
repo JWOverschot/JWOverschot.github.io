@@ -17,23 +17,18 @@ function changeColor() {
 }
 
 function mOverGit() {
-	console.log ("true")
 	document.getElementById("text").innerHTML = "Github";
 }
 function mOverMail() {
-	console.log ("true")
 	document.getElementById("text").innerHTML = "Mail";
 }
 function mOverInfo() {
-	console.log ("true")
 	document.getElementById("text").innerHTML = "Info";
 }
 function mOverBook() {
-	console.log ("true")
 	document.getElementById("text").innerHTML = "Book";
 }
 function mOverFolder() {
-	console.log ("true")
 	document.getElementById("text").innerHTML = "Folder";
 }
 function mOut() {

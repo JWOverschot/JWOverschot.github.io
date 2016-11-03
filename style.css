@@ -14,23 +14,23 @@ html, body {
 }
 
 .box {
-	width: 220%;
+	width: 230%;
 	height: 30%;
-	z-index: 0;
+	z-index: 10;
 	position: fixed;
-	transform: rotate(-50deg);
+	transform: rotate(-40deg);
 	top: -120%;
 	left: -120%;
-	animation-name: lines;
-	animation-duration: 2s;
+	animation-name: linesphone;
+	animation-duration: 2.5s;
 	animation-delay: 1s;
+	mix-blend-mode: luminosity;
 }
 #box1, #box2, #box3 {
 	width: 100%;
-	height: 100%;
-	z-index: 0;
-	
+	height: 100%;	
 }
+
 #box1 {
 	background-color: #F06868;
 }
@@ -96,8 +96,30 @@ a:active {
 }
 }
 
+@keyframes linesphone {
+    from {top: -63%;
+	left: -250%;
+}
+    to {top: 120%;
+	left: 120%;
+}
+}
+
 @media screen and (min-width: 480px) {
     main {
-        width: 40%;
+        width: 500px;
     }
+    @keyframes lines {
+    from {top: -120%;
+	left: -120%;
+	}
+    to {top: 120%;
+	left: 120%;
+	}
+	}
+    .box {
+    	width: 220%;
+    	animation-name: lines;
+		transform: rotate(-50deg);
+	}
 }
