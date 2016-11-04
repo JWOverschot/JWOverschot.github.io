@@ -3,8 +3,8 @@ html, body {
 	margin: auto;
     min-height: 100%;
     width: 100%;
-    position: fixed;
     z-index: -5;
+    position: absolute;
 }
 #bg {
 	width: 100%;
@@ -59,7 +59,7 @@ h1 {
 	font-size: 3.6em;
 }
 
-nav {
+main nav {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -85,6 +85,110 @@ a:hover {
 
 a:active {
     color: #ff4000;
+}
+header {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: baseline;
+	width: 100%;
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #F06868;
+	z-index: 50;
+}
+
+header h1 {
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+header nav {
+	width: 100%;
+	
+}
+
+.social {
+	justify-content: flex-end;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#articles {
+	padding-top: 120px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+#articles .imgs {
+	min-height: 300px;
+	min-width: 533px;
+	border-radius: 10px;
+	margin: 10px;
+	position: relative;
+}
+
+#articles a h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 64.6%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding-top: 20%;
+	display: none;
+}
+
+#articles a:hover h3 {
+	display: block;
+}
+
+#articles a:hover {
+	filter: grayscale(100%);
+	position: relative;
+	z-index: 5;
+	color: white;
+}
+
+#articles #img1 {
+	background-image: url("media/adventure-game.png");
+}
+
+#articles #img2 {
+	background-image: url("media/de-vloot.png");
+}
+
+#articles #img3 {
+	background-image: url("media/grid.png");
+}
+
+#articles #img4 {
+	background-image: url("media/handy.png");
+}
+
+#articles #img5 {
+	background-image: url("media/layout.png");
+}
+
+#articles #img6 {
+	background-image: url("media/recepten.png");
+}
+
+#articles #img7 {
+	background-image: url("media/robotarm.png");
+}
+
+#articles #img8 {
+	background-image: url("media/loading.png");
 }
 
 @keyframes linesphone {
@@ -113,7 +217,7 @@ a:active {
     	animation-name: lines;
 		transform: rotate(-50deg);
 	}
-	nav a {
+	main nav a {
 		width: 20%;
 		text-align: center;
 	}
