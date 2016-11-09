@@ -16,12 +16,6 @@ function changeColor() {
 	}
 }
 
-function mOverGit() {
-	document.getElementById("text").innerHTML = "Github";
-}
-function mOverMail() {
-	document.getElementById("text").innerHTML = "Mail";
-}
 function mOverInfo() {
 	document.getElementById("text").innerHTML = "Info";
 }
@@ -31,6 +25,32 @@ function mOverBook() {
 function mOverFolder() {
 	document.getElementById("text").innerHTML = "Folder";
 }
+function mOverGit() {
+	document.getElementById("text").innerHTML = "Github";
+}
+function mOverMail() {
+	document.getElementById("text").innerHTML = "Mail";
+}
 function mOut() {
 	document.getElementById("text").innerHTML = "Jis van Overschot";
+}
+var value = 1;
+
+function showMenu() {
+	var y = document.getElementById("fontcolor");
+	var x = document.getElementById("links");
+	var z = document.getElementById("social");
+
+	if(value==1) {
+	    y.style.height = "100%";
+	    x.style.display = "block";
+	    z.style.display = "block";
+	    value = 2;
+	}
+	else if(value==2) {
+	    y.style.height = "auto";
+	    x.style.display = "none";
+	    z.style.display = "none";
+	    value = 1;
+	}
 }

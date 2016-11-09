@@ -14,14 +14,18 @@
 	<div id="bg"></div>
 	<header id="fontcolor">
 		<a onclick="changeColor()"><h1>Opleiding</h1></a>
-		<nav class="links">
-			<a href="index.html"><i class="fa fa-home fa-3x" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-folder-open fa-3x" aria-hidden="true"></i></a>
-			<a href="#"><i class="fa fa-info-circle fa-3x" aria-hidden="true"></i></a>
+		<nav id="menu">
+			<a onclick="showMenu()" id="menu-bars" href="#"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></a>
 		</nav>
-		<nav class="social">
-			<a href="https://github.com/JWOverschot" target="_blank"><i id="github" class="fa fa-github fa-3x" aria-hidden="true"></i></a>
-			<a href="mailto:99040091@mydavinci.nl" target="_blank"><i id="mail" class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+		<nav id="links">
+			<a id="home" href="index.html"><i class="fa fa-home fa-3x" aria-hidden="true"></i><p>Home</p></a>
+			<a id="folder" href="#"><i class="fa fa-folder-open fa-3x" aria-hidden="true"></i><p>Folder</p></a>
+			<a id="info" href="#"><i class="fa fa-info-circle fa-3x" aria-hidden="true"></i><p>Info</p></a>
+		</nav>
+		<nav id="social">
+			
+			<a id="github" href="https://github.com/JWOverschot" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i><p>Github</p></a>
+			<a id="mail" href="mailto:99040091@mydavinci.nl" target="_blank"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i><p>Mail</p></a>
 		</nav>
 	</header>
 	<div id="articles">
