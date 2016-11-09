@@ -272,10 +272,7 @@ header nav {
 
 
 @media screen and (max-width:769px) {
-    main {
-        width: 500px;
-    }
-	#menu {
+    	#menu {
 		left: 85%;
 	}	
 	
