@@ -93,17 +93,19 @@ a:active {
 
 header {
 	display: flex;
-
 	flex-direction: column;
-
 	align-items: baseline;
 	width: 100%;
-
 	position: fixed;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #F06868;
 	z-index: 50;
+	overflow: scroll;
+}
+
+header::-webkit-scrollbar { 
+    display: none; 
 }
 
 header h1 {
@@ -132,10 +134,9 @@ header h1 {
 
 #social{
 	justify-content: flex-end;
-
 	text-align: left;
-
 	padding-right: 10px;
+	margin-bottom: 20px;
 }
 
 #menu {
@@ -272,8 +273,7 @@ header nav {
 
 
 @media screen and (max-width:769px) {
-    	#menu {
+    #menu {
 		left: 85%;
-	}	
-	
+	}
 }
