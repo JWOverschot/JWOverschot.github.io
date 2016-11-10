@@ -114,6 +114,11 @@ header h1 {
 	margin-left: 10px;
 }
 
+content {
+	padding-top: 88.8px;
+	position: absolute;
+}
+
 #links a, #social a{
 	display: block;
 	padding-left: 8px;
@@ -151,13 +156,13 @@ header nav {
 }
 
 #articles {
-	padding-top: 88.8px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-items: flex-start;
 	align-content: flex-start;
 	overflow: hidden;
+	filter: grayscale(50%);
 }
 
 #articles .imgs {
@@ -168,7 +173,7 @@ header nav {
 	position: relative;
 }
 
-#articles a h3 {
+#articles a h3{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -180,9 +185,21 @@ header nav {
 	margin: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
-	padding-top: 20%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	color: white;
 	display: block;
+}
+
+#articles a p {
+	position: absolute;
+	top: 51%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	padding-top: 30px;
 }
 
 #articles #img1 {
@@ -231,6 +248,7 @@ header nav {
 		display: inline-flex;
 		flex-direction: row;
 	}
+
 	#menu {
 		display: none;
 	}
@@ -252,12 +270,13 @@ header nav {
 		margin-bottom: 0px;
 	}
 	#articles {
-		padding-top: 120px;
+		filter: grayscale(0%);
 	}
-    #articles a h3 {
+    #articles a h3, #articles a p {
 		display: none;
 	}
-    #articles a:hover h3 {
+	
+    #articles a:hover h3, #articles a:hover p {
 		display: block;
 	}
 	#articles a:hover {
