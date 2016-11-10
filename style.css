@@ -97,7 +97,7 @@ header {
 	align-items: baseline;
 	width: 100%;
 	position: fixed;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-bottom: 10px;
 	background-color: #F06868;
 	z-index: 50;
@@ -112,7 +112,6 @@ header h1 {
 	display: inline;
 	margin-right: 10px;
 	margin-left: 10px;
-	padding-top: 20px;
 }
 
 content {
