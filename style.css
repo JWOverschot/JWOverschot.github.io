@@ -27,7 +27,7 @@ html, body {
 	left: -120%;
 	animation-name: lines;
 	animation-duration: 2.5s;
-	animation-delay: 1s;
+	animation-delay: 0.1s;
 	mix-blend-mode: luminosity;
 }
 #box1, #box2, #box3 {
@@ -157,6 +157,14 @@ header nav {
 	width: 100%;
 }
 
+h2 {
+	padding-left: 8px;
+	-webkit-user-select: auto;
+	-moz-user-select: auto;
+	-ms-user-select: auto;
+	user-select: auto;
+}
+
 #articles {
 	display: flex;
 	flex-flow: row wrap;
@@ -207,31 +215,24 @@ header nav {
 #articles #img1 {
 	background-image: url("media/adventure-game.png");
 }
-
 #articles #img2 {
 	background-image: url("media/de-vloot.png");
 }
-
 #articles #img3 {
 	background-image: url("media/grid.png");
 }
-
 #articles #img4 {
 	background-image: url("media/handy.png");
 }
-
 #articles #img5 {
 	background-image: url("media/layout.png");
 }
-
 #articles #img6 {
 	background-image: url("media/recepten.png");
 }
-
 #articles #img7 {
 	background-image: url("media/robotarm.png");
 }
-
 #articles #img8 {
 	background-image: url("media/loading.png");
 }
@@ -255,26 +256,37 @@ header nav {
 	#menu {
 		display: none;
 	}
+
 	#links, #social{
 		display: inline;
 	}
+
 	#links a, #social a{
 		display: inline;
 		padding-left: 0px;
 	}
+
 	#links a p, #social a p{
 	display: none;
 	}
+
 	#links {
 		margin-top: 0px;
 	}
+
 	#social {
 		text-align: right;
 		margin-bottom: 0px;
 	}
+
+	h2 {
+		padding-left: 18px;
+	}
+
 	#articles {
 		filter: grayscale(0%);
 	}
+
     #articles a h3, #articles a p {
 		display: none;
 	}
@@ -282,16 +294,19 @@ header nav {
     #articles a:hover h3, #articles a:hover p {
 		display: block;
 	}
+
 	#articles a:hover {
 		filter: grayscale(100%);
 		position: relative;
 		z-index: 5;
 		color: white;
 	}
+
 	main nav a {
 		width: 20%;
 		text-align: center;
 	}
+
 	main {
 		width: 500px;
 	}
