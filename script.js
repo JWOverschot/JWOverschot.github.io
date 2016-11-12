@@ -1,6 +1,22 @@
 var action = 1;
 
-function changeColor() {
+function changeColorHome() {
+	var x = document.getElementById("bg");
+	var y = document.getElementById("fontcolor");
+
+	if(action==1) {
+		x.style.backgroundColor = "black";
+	    y.style.filter = "invert(100%)";
+	    action = 2;
+	}
+	else if(action==2) {
+		x.style.backgroundColor = "white";
+	    y.style.filter = "invert(0%)";
+	    action = 1;
+	}
+}
+
+function changeColorOpleiding() {
 	var x = document.getElementById("bg");
 	var y = document.getElementById("fontcolor");
 	var z = document.getElementById("h2color");
