@@ -73,3 +73,18 @@ function showMenu() {
 	    value = 1;
 	}
 }
+
+
+function comicSans() {
+	var today = new Date();
+	var dd = today.getDate();
+	var ww = today.getDay()+1;
+	var mm = today.getMonth()+1;
+
+	if (dd<=6 && mm==7 && ww==6) {
+		var q = document.getElementsByTagName("body")[0];
+		var p = document.getElementsByTagName("h1")[0];
+		q.style.fontFamily = "'Comic Sans MS', cursive, sans-serif";
+		p.style.fontSize = "3.15em";
+	}
+}
