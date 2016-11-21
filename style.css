@@ -157,6 +157,20 @@ header nav {
 	width: 100%;
 }
 
+.text-box {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+.text-box h2, .text-box h3 {
+	padding: 10px;
+	background-color: #f2f2f2;
+	margin: 5px 8px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.45);
+}
+
 h2, h3 {
 	padding-left: 8px;
 	-webkit-user-select: auto;
@@ -182,7 +196,7 @@ h2, h3 {
 #articles .imgs {
 	height: 300px;
 	width: 533px;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin: 10px;
 	position: relative;
 }
@@ -198,7 +212,7 @@ h2, h3 {
 	font-size: 3em;
 	margin: 0;
 	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 10px;
+	border-radius: 5px;
 	padding-top: 10%;
 	padding-bottom: 10%;
 	color: white;
@@ -239,6 +253,13 @@ h2, h3 {
 }
 #articles #img8 {
 	background-image: url("media/loading.png");
+}
+
+#img-prof {
+	height: 400px;
+	width: 100%;
+	background-color: black;
+	border-radius: 5px;
 }
 
 @keyframes lines {
