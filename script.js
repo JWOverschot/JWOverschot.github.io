@@ -75,8 +75,13 @@ function showMenu() {
 }
 
 function onload() {
+
 	comicSans();
-	currentAge();
+
+	if (document.URL.indexOf("info.html") != -1) {
+		currentAge();
+	}
+	
 	function comicSans() {
 		var today = new Date();
 		var dd = today.getDate();
