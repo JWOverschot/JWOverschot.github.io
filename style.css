@@ -158,18 +158,56 @@ header nav {
 	width: 100%;
 }
 
-.text-box {
+.text-box-all {
 	display: flex;
 	flex-direction: column;
 	margin-top: 10px;
 }
 
-.text-box h2, .text-box h3 {
+.text-box h2, .text-box ul{
+	padding: 0px;
+	background-color: transparent;
+	margin: 0px 0px;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+#leeftijd {
+	display: block;
+}
+
+#li1 {
+	background-color: #f16529;
+	width: 80%;
+}
+#li2 {
+	background-color: #28a9e0;
+	width: 80%;
+}
+#li3 {
+	background-color: #f7df1e;
+	width: 70%;
+}
+#li4 {
+	background-color: #CC342D;
+	width: 45%;
+}
+#li5 {
+	background-color: #cc0000;
+	width: 45%;
+}
+
+.text-box, .text-box-all {
 	padding: 10px;
 	background-color: #f2f2f2;
 	margin: 5px 8px;
 	border-radius: 5px;
 	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.45);
+}
+
+.text-box ul {
+	list-style: none;
+	font-size: 1.5em;
 }
 
 h2, h3 {
