@@ -164,6 +164,10 @@ header nav {
 	margin-top: 10px;
 }
 
+.text-box p {
+	padding-left: 30px;
+}
+
 .text-box h2, .text-box ul{
 	padding: 0px;
 	background-color: transparent;
