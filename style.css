@@ -175,26 +175,34 @@ header nav {
 #leeftijd {
 	display: block;
 }
+#li1, #li2, #li3, #li4, #li5 {
+	animation-duration: 4s;
+}
 
 #li1 {
 	background-color: #f16529;
 	width: 80%;
+	animation-name: li1;
 }
 #li2 {
 	background-color: #28a9e0;
 	width: 80%;
+	animation-name: li2;
 }
 #li3 {
 	background-color: #f7df1e;
 	width: 70%;
+	animation-name: li3;
 }
 #li4 {
 	background-color: #CC342D;
 	width: 45%;
+	animation-name: li4;
 }
 #li5 {
 	background-color: #cc0000;
 	width: 45%;
+	animation-name: li5;
 }
 
 .text-box, .text-box-all {
@@ -385,5 +393,46 @@ h2, h3 {
 @media screen and (max-width:769px) {
     #menu {
 		left: 85%;
+	}
+}
+
+@keyframes li1 {
+	0% {
+		width: 17%;
+	}
+	100% {
+		width: 80%;
+	}
+}
+@keyframes li2 {
+	0% {
+		width: 11%;
+	}
+	100% {
+		width: 80%;
+	}
+}
+@keyframes li3 {
+	0% {
+		width: 24%;
+	}
+	100% {
+		width: 70%;
+	}
+}
+@keyframes li4 {
+	0% {
+		width: 13%;
+	}
+	100% {
+		width: 45%;
+	}
+}
+@keyframes li5{
+	0% {
+		width: 34%;
+	}
+	100% {
+		width: 45%;
 	}
 }
