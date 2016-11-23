@@ -122,6 +122,18 @@ content {
 	height: 100%;
 }
 
+#info {
+	display: flex;
+	flex-direction: column;
+	position: static;
+}
+
+#right {
+	padding-left: inherit;
+	width: inherit;
+	position: inherit;
+}
+
 #links a, #social a{
 	display: block;
 	padding-left: 8px;
@@ -159,8 +171,6 @@ header nav {
 }
 
 .text-box-all {
-	display: flex;
-	flex-direction: column;
 	margin-top: 10px;
 }
 
@@ -305,10 +315,11 @@ p, h2, h3 {
 
 #img-prof {
 	height: 350px;
-	width: 350px;
+	/*width: 350px;*/
 	background-color: black;
 	border-radius: 5px;
 	margin: 8px 8px 0px 8px;
+	align-self: center;
 }
 
 #YT-video {
@@ -358,6 +369,14 @@ p, h2, h3 {
 		margin-bottom: 0px;
 	}
 
+	#right {
+		padding-left: 350px;
+		width: 50%;
+		position: absolute;
+		top: 93px;
+    	left: 8px;
+	}
+
 	h2, h3 {
 		padding-left: 18px;
 	}
@@ -392,6 +411,10 @@ p, h2, h3 {
 
 	main {
 		width: 500px;
+	}
+	
+	#img-prof {
+		align-self: flex-start;
 	}
 
 	#YT-video {
