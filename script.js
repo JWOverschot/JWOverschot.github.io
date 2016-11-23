@@ -74,6 +74,21 @@ function showMenu() {
 	}
 }
 
+function zoom() {
+	var z = document.getElementById("ps-img");
+
+	if(screen.width > 700 && value==1) {
+		z.style.width = "100%";
+		z.style.cursor = "zoom-out";
+		value = 2;
+	}
+	else if(screen.width > 700 && value==2) {
+		z.style.width = "61%";
+		z.style.cursor = "zoom-in";
+		value = 1;
+	}
+}
+
 function onload() {
 
 	comicSans();

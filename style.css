@@ -192,26 +192,22 @@ header nav {
 }
 #li1, #li2, #li3, #li4, #li5 {
 	animation-duration: 4s;
+	background-color: #4db8e6;
 }
 
 #li1 {
-	background-color: #f16529;
 	width: 80%;
 }
 #li2 {
-	background-color: #28a9e0;
 	width: 80%;
 }
 #li3 {
-	background-color: #f7df1e;
 	width: 70%;
 }
 #li4 {
-	background-color: #CC342D;
 	width: 65%;
 }
 #li5 {
-	background-color: #cc0000;
 	width: 45%;
 }
 
@@ -327,6 +323,11 @@ p, h2, h3 {
 	height: 215px;
 }
 
+#ps-img {
+	width: 100%;
+	border-radius: 5px;
+}
+
 @keyframes lines {
     from {top: -63%;
 	left: -250%;
@@ -421,6 +422,15 @@ p, h2, h3 {
 	#YT-video {
 		width: 660px;
 		height: 372px;
+	}
+
+	#ps-img {
+		width: 61%;
+		transition-duration: 1.5s;
+	}
+
+	#ps-img:hover {
+		cursor: zoom-in;
 	}
 }
 
