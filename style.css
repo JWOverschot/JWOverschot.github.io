@@ -187,27 +187,27 @@ header nav {
 #li1 {
 	background-color: #f16529;
 	width: 80%;
-	animation-name: li1;
+	animation-name: html-css;
 }
 #li2 {
 	background-color: #28a9e0;
 	width: 80%;
-	animation-name: li2;
+	animation-name: html-css;
 }
 #li3 {
 	background-color: #f7df1e;
 	width: 70%;
-	animation-name: li3;
+	animation-name: js;
 }
 #li4 {
 	background-color: #CC342D;
-	width: 45%;
-	animation-name: li4;
+	width: 65%;
+	animation-name: ruby;
 }
 #li5 {
 	background-color: #cc0000;
 	width: 45%;
-	animation-name: li5;
+	animation-name: rails;
 }
 
 .text-box, .text-box-all {
@@ -411,43 +411,35 @@ p, h2, h3 {
 	}
 }
 
-@keyframes li1 {
+@keyframes html-css {
 	0% {
-		width: 17%;
+		transform: matrix(0.01, 0, 0, 1, -403, 0);
 	}
 	100% {
-		width: 80%;
+		transform: matrix(1, 0, 0, 1, 0, 0);
 	}
 }
-@keyframes li2 {
+@keyframes js {
 	0% {
-		width: 11%;
+		transform: matrix(0.011, 0, 0, 1, -353, 0);
 	}
 	100% {
-		width: 80%;
+		transform: matrix(1, 0, 0, 1, 0, 0);
 	}
 }
-@keyframes li3 {
+@keyframes ruby {
 	0% {
-		width: 24%;
+		transform: matrix(0.011, 0, 0, 1, -328, 0);
 	}
 	100% {
-		width: 70%;
+		transform: matrix(1, 0, 0, 1, 0, 0);
 	}
 }
-@keyframes li4 {
+@keyframes rails {
 	0% {
-		width: 13%;
+		transform: matrix(0.015, 0, 0, 1, -229, 0);
 	}
 	100% {
-		width: 45%;
-	}
-}
-@keyframes li5{
-	0% {
-		width: 34%;
-	}
-	100% {
-		width: 45%;
+		transform: matrix(1, 0, 0, 1, 0, 0);
 	}
 }
