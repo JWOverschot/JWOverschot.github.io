@@ -187,27 +187,22 @@ header nav {
 #li1 {
 	background-color: #f16529;
 	width: 80%;
-	animation-name: html-css;
 }
 #li2 {
 	background-color: #28a9e0;
 	width: 80%;
-	animation-name: html-css;
 }
 #li3 {
 	background-color: #f7df1e;
 	width: 70%;
-	animation-name: js;
 }
 #li4 {
 	background-color: #CC342D;
 	width: 65%;
-	animation-name: ruby;
 }
 #li5 {
 	background-color: #cc0000;
 	width: 45%;
-	animation-name: rails;
 }
 
 .text-box, .text-box-all {
@@ -309,10 +304,11 @@ p, h2, h3 {
 }
 
 #img-prof {
-	height: 400px;
-	width: 100%;
+	height: 350px;
+	width: 350px;
 	background-color: black;
 	border-radius: 5px;
+	margin: 8px 8px 0px 8px;
 }
 
 #YT-video {
@@ -408,38 +404,5 @@ p, h2, h3 {
 @media screen and (max-width:769px) {
     #menu {
 		left: 85%;
-	}
-}
-
-@keyframes html-css {
-	0% {
-		transform: matrix(0.01, 0, 0, 1, -403, 0);
-	}
-	100% {
-		transform: matrix(1, 0, 0, 1, 0, 0);
-	}
-}
-@keyframes js {
-	0% {
-		transform: matrix(0.011, 0, 0, 1, -353, 0);
-	}
-	100% {
-		transform: matrix(1, 0, 0, 1, 0, 0);
-	}
-}
-@keyframes ruby {
-	0% {
-		transform: matrix(0.011, 0, 0, 1, -328, 0);
-	}
-	100% {
-		transform: matrix(1, 0, 0, 1, 0, 0);
-	}
-}
-@keyframes rails {
-	0% {
-		transform: matrix(0.015, 0, 0, 1, -229, 0);
-	}
-	100% {
-		transform: matrix(1, 0, 0, 1, 0, 0);
 	}
 }
