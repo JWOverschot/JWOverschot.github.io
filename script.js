@@ -38,11 +38,11 @@ function changeColorOpleiding() {
 function mOverInfo() {
 	document.getElementById("text").innerHTML = "Info";
 }
-function mOverBook() {
+function mOverOpleiding() {
 	document.getElementById("text").innerHTML = "Opleiding";
 }
-function mOverFolder() {
-	document.getElementById("text").innerHTML = "Folder";
+function mOverBeroep() {
+	document.getElementById("text").innerHTML = "Beroep";
 }
 function mOverGit() {
 	document.getElementById("text").innerHTML = "Github";
