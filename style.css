@@ -190,9 +190,17 @@ header nav {
 #leeftijd {
 	display: block;
 }
+
+.perc-bar {
+	width: 100%;
+	background-color: #bce4f5;
+	border-radius: 5px;
+}
+
 #li1, #li2, #li3, #li4, #li5 {
 	animation-duration: 4s;
 	background-color: #4db8e6;
+	margin-left: 0px;
 }
 
 #li1 {
