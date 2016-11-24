@@ -17,6 +17,14 @@ html, body {
 	z-index: -1;
 }
 
+#logo-cutout{
+	width: 350%;
+	height: 350%;
+	position: fixed;
+	left: -125%;
+	top: -125%;
+}
+
 .box {
 	width: 230%;
 	height: 30%;
@@ -26,9 +34,10 @@ html, body {
 	top: -120%;
 	left: -120%;
 	animation-name: lines;
-	animation-duration: 2.5s;
+	animation-duration: 4s;
 	animation-delay: 0.1s;
 	mix-blend-mode: luminosity;
+	z-index: -5;
 }
 #box1, #box2, #box3 {
 	width: 100%;
