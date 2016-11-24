@@ -35,7 +35,7 @@ html, body {
 	left: -120%;
 	animation-name: lines;
 	animation-duration: 4s;
-	animation-delay: 0.1s;
+	animation-delay: 1s;
 	mix-blend-mode: luminosity;
 	z-index: -5;
 }
