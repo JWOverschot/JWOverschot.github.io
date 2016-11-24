@@ -77,9 +77,14 @@ function showMenu() {
 function zoom() {
 	var z = document.getElementById("ps-img");
 
+	function scrollDown() {
+		window.scrollBy(0, 450);
+	}
+
 	if(screen.width > 700 && value==1) {
 		z.style.width = "100%";
 		z.style.cursor = "zoom-out";
+		setTimeout(scrollDown, 1000);
 		value = 2;
 	}
 	else if(screen.width > 700 && value==2) {
