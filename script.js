@@ -83,7 +83,7 @@ function zoom() {
 		value = 2;
 	}
 	else if(screen.width > 700 && value==2) {
-		z.style.width = "61%";
+		z.style.width = "350px";
 		z.style.cursor = "zoom-in";
 		value = 1;
 	}
