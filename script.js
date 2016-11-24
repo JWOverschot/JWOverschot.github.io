@@ -35,6 +35,10 @@ function changeColorOpleiding() {
 	}
 }
 
+function logoLink() {
+	window.location.href = "index.html";
+}
+
 function mOverInfo() {
 	document.getElementById("text").innerHTML = "Info";
 }

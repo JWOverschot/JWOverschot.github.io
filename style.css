@@ -122,6 +122,21 @@ content {
 	height: 100%;
 }
 
+#logo-img {
+	filter: invert(100%);
+	width: 100px;
+	height: 55px;
+	align-self: center;
+	position: absolute;
+}
+
+#logo-img:active {
+	box-shadow: inset 0px -1px 5px white;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
+	background-color: #04a4a4;
+}
+
 #info {
 	display: flex;
 	flex-direction: column;
@@ -350,6 +365,10 @@ p, h2, h3 {
 		display: inline-flex;
 		flex-direction: row;
 		padding-top: 10px;
+	}
+
+	#logo-img {
+		position: static;
 	}
 
 	#menu {
