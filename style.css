@@ -123,18 +123,7 @@ content {
 }
 
 #logo-img {
-	filter: invert(100%);
-	width: 100px;
-	height: 55px;
-	align-self: center;
-	position: absolute;
-}
-
-#logo-img:active {
-	box-shadow: inset 0px -1px 5px white;
-	border-radius: 5px;
-	padding: 0 5px 0 5px;
-	background-color: #04a4a4;
+	display: none;
 }
 
 #info {
@@ -367,10 +356,6 @@ p, h2, h3 {
 		padding-top: 10px;
 	}
 
-	#logo-img {
-		position: static;
-	}
-
 	#menu {
 		display: none;
 	}
@@ -465,5 +450,26 @@ p, h2, h3 {
 @media screen and (max-width:769px) {
     #menu {
 		left: 85%;
+	}
+}
+
+@media screen and (min-width:918px) {
+    #logo-img {
+		display: block;
+		filter: invert(100%);
+		width: 100px;
+		height: 55px;
+		align-self: center;
+		position: static;
+		position: absolute;
+		left: 46%;
+	}
+
+	#logo-img:active {
+		box-shadow: inset 0px -1px 5px white;
+		border-radius: 5px;
+		padding: 0 5px 0 5px;
+		background-color: #04a4a4;
+		margin: 0 -5px 0 -5px;
 	}
 }
