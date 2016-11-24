@@ -329,6 +329,12 @@ p, h2, h3 {
 #articles #img8 {
 	background-image: url("media/loading.png");
 }
+#articles #img9 {
+	background-image: url("media/wie-ben-ik.png");
+}
+#articles #img10 {
+	background-image: url("media/wie-ben-ik2.png");
+}
 
 #img-prof {
 	height: 350px;
