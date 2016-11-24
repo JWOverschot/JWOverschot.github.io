@@ -34,8 +34,8 @@ html, body {
 	top: -120%;
 	left: -120%;
 	animation-name: lines;
-	animation-duration: 4s;
-	animation-delay: 1s;
+	animation-duration: 7.5s;
+	animation-delay: 0.5s;
 	mix-blend-mode: luminosity;
 	z-index: -3;
 }
