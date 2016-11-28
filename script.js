@@ -74,7 +74,7 @@ function showMenu() {
 		value = 2;
 	}
 	else if(value==2) {
-		y.style.height = "auto";
+		y.style.height = "initial";
 		x.style.display = "none";
 		z.style.display = "none";
 		value = 1;
