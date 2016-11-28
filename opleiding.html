@@ -19,6 +19,10 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#F06868">
 </head>
 <body onload="onload()">
+	<div id="feedback-bg">
+		<div id="iframe-underlay"><button onclick="feedbackClose()" id="feedback-close-btn"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></button></div>
+		<iframe id="feedback-form" src="https://docs.google.com/forms/d/e/1FAIpQLSczwHkNmZYnI4pcT91ysyI_KZ5LB6JhZXP2BdJWOMPErkoGNg/viewform?embedded=true" scrolling="no">Bezig met laden...</iframe>
+	</div>
 	<div id="bg"></div>
 	<header id="fontcolor">
 		<a onclick="changeColorOpleiding()"><h1>Opleiding</h1></a>
@@ -55,8 +59,9 @@
 	</content>
 	<footer>
 		<div class="text-box">
-			<a href="index.html"><img id="logo-footer" src="media/JW-logo.svg" alt="JW logo"></a>
-			<p>&#xA9 <span id="year">You're fast, or have a slow internet connection and or computer</span> JWOverschot</p>
+			<div id="footer-logo-copyright"><a href="index.html"><img id="logo-footer" src="media/JW-logo.svg" alt="JW logo"></a>
+			<p>&#xA9 <span id="year">You're fast, or have a slow internet connection and or computer</span> JWOverschot</p></div>
+			<div onclick="feedbackOpen()" id="feedback-btn"><i class="fa fa-bullhorn fa-2x" aria-hidden="true"></i><p>Feedback</p></div>
 		</div>
 	</footer>
 	</div>

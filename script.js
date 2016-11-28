@@ -38,6 +38,18 @@ function changeColorOpleiding() {
 	}
 }
 
+function feedbackOpen() {
+	var feedback = document.getElementById("feedback-bg");
+
+	feedback.style.display = "block";
+}
+
+function feedbackClose() {
+	var feedback = document.getElementById("feedback-bg");
+	
+	feedback.style.display = "none";
+}
+
 function logoLink() {
 	window.location.href = "index.html";
 }
