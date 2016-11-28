@@ -104,11 +104,12 @@ function zoom() {
 function onload() {
 
 	comicSans();
+	yearNow();
 
 	if (document.URL.indexOf("info.html") != -1) {
 		currentAge();
 	}
-	
+
 	function comicSans() {
 		var today = new Date();
 		var dd = today.getDate();
@@ -133,5 +134,13 @@ function onload() {
 		if (dd>=2 && mm>=8) {
 			age.innerHTML =  yy - 99;
 		}
+	}
+
+	function yearNow() {
+		var today = new Date();
+		var yy = today.getYear();
+		var year = document.getElementById("year");
+
+		year.innerHTML = yy + 1900;
 	}
 }
