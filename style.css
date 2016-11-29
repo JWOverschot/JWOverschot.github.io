@@ -218,7 +218,6 @@ footer a{
 }
 
 #feedback-form {
-	overflow: hidden;
 	border: none;
 	border-radius: 5px;
 	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.45);
@@ -230,8 +229,8 @@ footer a{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	position: fixed;
-	height: 640px;
-	width: 400px;
+	height: 95%;
+	width: 90%;
 }
 
 #feedback-bg {
@@ -254,8 +253,8 @@ footer a{
 	outline: none;
 	padding: 0;
 	position: relative;
-	top: -2px;
-	left: 367px;
+	top: -1px;
+	float: right;
 	pointer-events: all;
 }
 
@@ -482,6 +481,17 @@ p, h2, h3 {
 	#social {
 		text-align: right;
 		margin-bottom: 0px;
+	}
+
+	#feedback-form, #iframe-underlay {
+		height: 640px;
+		width: 400px;
+	}
+
+	#feedback-close-btn {
+		top: -2px;
+		left: 367px;
+		float: initial;
 	}
 
 	#right {
