@@ -116,7 +116,13 @@ function zoom() {
 function onload() {
 
 	comicSans();
-	yearNow();
+
+	if (document.URL.indexOf("index.html") != -1) {
+		return;
+	}
+	else {
+		yearNow();
+	}
 
 	if (document.URL.indexOf("info.html") != -1) {
 		currentAge();
