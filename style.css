@@ -162,7 +162,7 @@ content {
 	justify-content: flex-end;
 	text-align: left;
 	padding-right: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 #menu {
@@ -189,7 +189,6 @@ footer .text-box {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	overflow: hidden;
 	alignment-baseline: middle;
 }
 
@@ -455,6 +454,7 @@ p, h2, h3 {
 		display: inline-flex;
 		flex-direction: row;
 		padding-top: 10px;
+		overflow: initial;
 	}
 
 	#menu {
@@ -575,6 +575,7 @@ p, h2, h3 {
 		position: static;
 		position: absolute;
 		left: 46%;
+		top: 19%;
 	}
 
 	#logo-img:active {
