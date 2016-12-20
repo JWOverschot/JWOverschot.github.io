@@ -413,6 +413,9 @@ p, h2, h3 {
 #articles #img10 {
 	background-image: url("media/wie-ben-ik2.png");
 }
+#articles #img11 {
+	background-image: url("media/calculator.png");
+}
 
 #info-top {
 	display: flex;
