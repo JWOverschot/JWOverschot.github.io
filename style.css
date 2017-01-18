@@ -416,6 +416,9 @@ p, h2, h3 {
 #articles #img11 {
 	background-image: url("media/calculator.png");
 }
+#articles #img12 {
+	background-image: url("media/mastermind.png");
+}
 
 #info-top {
 	display: flex;
