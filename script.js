@@ -152,6 +152,9 @@ function onload() {
 		if (dd>=2 && mm>=8) {
 			age.innerHTML =  yy - 99;
 		}
+		else {
+			age.innerHTML = yy - 1 - 99;
+		}
 	}
 
 	function yearNow() {
