@@ -2,19 +2,13 @@ var action = 1;
 
 function changeColorHome() {
 	var x = document.getElementById("bg");
-	var y = document.getElementById("fontcolor");
-	var z =document.getElementById("logo-cutout");
 
 	if(action==1) {
-		x.style.backgroundColor = "black";
-		y.style.filter = "invert(100%)";
-		z.style.filter = "invert(100%)";
+		x.style.animationName = "bgcolor";
 		action = 2;
 	}
 	else if(action==2) {
-		x.style.backgroundColor = "white";
-		y.style.filter = "invert(0%)";
-		z.style.filter = "invert(0%)";
+		x.style.animationName = "none";
 		action = 1;
 	}
 }
