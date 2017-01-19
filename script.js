@@ -1,8 +1,7 @@
 var action = 1;
 
 function changeColorHome() {
-	var x = document.getElementById("bg");
-
+	var x = document.getElementsByTagName("body")[0];
 	if(action==1) {
 		x.style.animationName = "bgcolor";
 		action = 2;

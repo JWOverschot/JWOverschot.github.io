@@ -9,12 +9,6 @@ html, body {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-}
-#bg {
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	z-index: -4;
 	animation-duration: 100s;
 	animation-iteration-count:infinite;
 }
