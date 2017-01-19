@@ -14,7 +14,7 @@ function changeColorHome() {
 }
 
 function changeColorOpleiding() {
-	var x = document.getElementById("bg");
+	var x = document.getElementsByTagName("body")[0];
 	var y = document.getElementById("fontcolor");
 	var z = document.getElementById("h2color");
 
