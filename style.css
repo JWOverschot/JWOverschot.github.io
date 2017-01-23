@@ -447,12 +447,12 @@ p, h2, h3 {
 }
 
 #error-h1 {
-	transform: translate(-50%, -55%);
-	font-size: 2000%;
+	transform: translate(-50%, -110%);
+	font-size: 1000%;
 }
 
 #error-p {
-	transform: translate(-50%, 286%);
+	transform: translate(-50%, 12%);
 	font-size: 250%;
 }
 
@@ -667,6 +667,15 @@ p, h2, h3 {
 
 	#ps-img:hover {
 		cursor: zoom-in;
+	}
+	#error-h1 {
+		transform: translate(-50%, -55%);
+		font-size: 2000%;
+	}
+
+	#error-p {
+		transform: translate(-50%, 286%);
+		font-size: 250%;
 	}
 }
 
