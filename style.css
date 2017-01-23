@@ -454,6 +454,10 @@ p, h2, h3 {
 #error-p {
 	transform: translate(-50%, 12%);
 	font-size: 250%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 #error-h1, #error-p {
@@ -466,10 +470,6 @@ p, h2, h3 {
 	text-shadow: 3px 2px 4px rgba(255, 255, 255, 0.4);
 	font-family: 'Russo One', sans-serif;
 	cursor: default;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 #overlay {
