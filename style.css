@@ -5,7 +5,7 @@ html, body {
     width: 100%;
     z-index: -5;
 	position: absolute;
-    -webkit-user-select: none;
+	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
@@ -466,6 +466,10 @@ p, h2, h3 {
 	text-shadow: 3px 2px 4px rgba(255, 255, 255, 0.4);
 	font-family: 'Russo One', sans-serif;
 	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 #overlay {
