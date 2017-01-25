@@ -414,6 +414,9 @@ p, h2, h3 {
 #articles #img12 {
 	background-image: url("media/mastermind.png");
 }
+#articles #img13 {
+	background-image: url("media/php-clock.png");
+}
 
 #info-top {
 	display: flex;
