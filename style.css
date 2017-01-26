@@ -417,6 +417,9 @@ p, h2, h3 {
 #articles #img13 {
 	background-image: url("media/clock.png");
 }
+#articles #img14 {
+	background-image: url("media/MadLibs.png");
+}
 
 #info-top {
 	display: flex;
