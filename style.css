@@ -285,7 +285,7 @@ footer a{
 	border-radius: 5px;
 }
 
-#li1, #li2, #li3, #li4, #li5 {
+#li1, #li2, #li3, #li4, #li5, #li6 {
 	animation-duration: 4s;
 	background-color: #4db8e6;
 	margin-left: 0px;
@@ -299,6 +299,9 @@ footer a{
 }
 #li3 {
 	width: 70%;
+}
+#li6 {
+	width: 43%;
 }
 #li4 {
 	width: 65%;
