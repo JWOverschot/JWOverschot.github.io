@@ -59,6 +59,9 @@ function mOverBeroep() {
 function mOverGit() {
 	document.getElementById("text").innerHTML = "Github";
 }
+function mOverLinkedin() {
+	document.getElementById("text").innerHTML = "Linkedin";
+}
 function mOverMail() {
 	document.getElementById("text").innerHTML = "Mail";
 }
