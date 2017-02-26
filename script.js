@@ -1,15 +1,7 @@
 var action = 1;
 
 function changeColorHome() {
-	var x = document.getElementsByTagName("body")[0];
-	if(action==1) {
-		x.style.animationName = "bgcolor";
-		action = 2;
-	}
-	else if(action==2) {
-		x.style.animationName = "none";
-		action = 1;
-	}
+	lineAnimation();
 }
 
 function changeColorOpleiding() {
@@ -108,8 +100,16 @@ function zoom() {
 		value = 1;
 	}
 }
-
+function lineAnimation() {
+		var x = document.getElementsByClassName("box")[0];
+		x.style.animationName = "lines";
+		x.style.animationDuration = "7.5s";
+		setTimeout(function(){x.style.animationName = "none";
+		x.style.animationDuration = "0s";}, 2700);
+	}
 function onload() {
+	lineAnimation();
+	
 
 	comicSans();
 
