@@ -1,5 +1,5 @@
 var action = 1;
-
+	
 function changeColorHome() {
 	lineAnimation();
 }
@@ -100,19 +100,56 @@ function zoom() {
 		value = 1;
 	}
 }
+
 function lineAnimation() {
-		var x = document.getElementsByClassName("box")[0];
-		x.style.animationName = "lines";
-		x.style.animationDuration = "7.5s";
-		setTimeout(function(){x.style.animationName = "none";
-		x.style.animationDuration = "0s";}, 2700);
+	var x = document.getElementsByClassName("box")[0];
+	x.style.animationName = "lines";
+	x.style.animationDuration = "7.5s";
+	setTimeout(function(){x.style.animationName = "none";
+	x.style.animationDuration = "0s";}, 2700);
+}
+
+function comicSans() {
+	var today = new Date();
+	var dd = today.getDate();
+	var ww = today.getDay()+1;
+	var mm = today.getMonth()+1;
+
+	if (dd<=6 && mm==7 && ww==6) {
+		var q = document.getElementsByTagName("body")[0];
+		var p = document.getElementsByTagName("h1")[0];
+		q.style.fontFamily = "'Comic Sans MS', cursive, sans-serif";
+		p.style.fontSize = "3.15em";
 	}
-function onload() {
-	lineAnimation();
-	
+}
 
-	comicSans();
+function currentAge() {
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1;
+	var yy = today.getYear();
+	var age = document.getElementById("age");
 
+	if (dd>=2 && mm>=8) {
+		age.innerHTML =  yy - 99;
+	}
+	else {
+		age.innerHTML = yy - 1 - 99;
+	}
+}
+
+function yearNow() {
+	var today = new Date();
+	var yy = today.getYear();
+	var year = document.getElementById("year");
+
+	year.innerHTML = yy + 1900;
+}
+
+function loading() {
+	if (document.URL.indexOf("index.html") != -1) {
+		changeColorHome();
+	}
 	if (document.URL.indexOf("index.html") != -1) {
 		return;
 	}
@@ -123,41 +160,6 @@ function onload() {
 	if (document.URL.indexOf("info.html") != -1) {
 		currentAge();
 	}
-
-	function comicSans() {
-		var today = new Date();
-		var dd = today.getDate();
-		var ww = today.getDay()+1;
-		var mm = today.getMonth()+1;
-
-		if (dd<=6 && mm==7 && ww==6) {
-			var q = document.getElementsByTagName("body")[0];
-			var p = document.getElementsByTagName("h1")[0];
-			q.style.fontFamily = "'Comic Sans MS', cursive, sans-serif";
-			p.style.fontSize = "3.15em";
-		}
-	}
-
-	function currentAge() {
-		var today = new Date();
-		var dd = today.getDate();
-		var mm = today.getMonth()+1;
-		var yy = today.getYear();
-		var age = document.getElementById("age");
-
-		if (dd>=2 && mm>=8) {
-			age.innerHTML =  yy - 99;
-		}
-		else {
-			age.innerHTML = yy - 1 - 99;
-		}
-	}
-
-	function yearNow() {
-		var today = new Date();
-		var yy = today.getYear();
-		var year = document.getElementById("year");
-
-		year.innerHTML = yy + 1900;
-	}
+	
+	comicSans();
 }
