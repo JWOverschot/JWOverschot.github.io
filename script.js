@@ -4,7 +4,7 @@ function changeColorHome() {
 	lineAnimation();
 }
 
-function changeColorOpleiding() {
+function changeColor() {
 	var x = document.getElementsByTagName("body")[0];
 	var y = document.getElementById("fontcolor");
 	var z = document.getElementById("h2color");
@@ -42,8 +42,8 @@ function logoLink() {
 function mOverInfo() {
 	document.getElementById("text").innerHTML = "Info";
 }
-function mOverOpleiding() {
-	document.getElementById("text").innerHTML = "Opleiding";
+function mOverPortfolio() {
+	document.getElementById("text").innerHTML = "Portfolio";
 }
 function mOverBeroep() {
 	document.getElementById("text").innerHTML = "Beroep";
