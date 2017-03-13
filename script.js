@@ -1,4 +1,5 @@
 var action = 1;
+var value = 1;
 	
 function changeColorHome() {
 	lineAnimation();
@@ -39,28 +40,17 @@ function logoLink() {
 	window.location.href = "index.html";
 }
 
-function mOverInfo() {
-	document.getElementById("text").innerHTML = "Info";
-}
-function mOverPortfolio() {
-	document.getElementById("text").innerHTML = "Portfolio";
-}
-function mOverBeroep() {
-	document.getElementById("text").innerHTML = "Beroep";
-}
-function mOverGit() {
-	document.getElementById("text").innerHTML = "Github";
-}
-function mOverLinkedin() {
-	document.getElementById("text").innerHTML = "Linkedin";
-}
-function mOverMail() {
-	document.getElementById("text").innerHTML = "Mail";
+function mOver(a) {
+	if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+ 		document.getElementById("text").innerHTML = a;
+	}
+	else {
+		document.getElementById("text").innerHTML = "Jis van Overschot";
+	}
 }
 function mOut() {
 	document.getElementById("text").innerHTML = "Jis van Overschot";
 }
-var value = 1;
 
 function showMenu() {
 	var y = document.getElementById("fontcolor");
