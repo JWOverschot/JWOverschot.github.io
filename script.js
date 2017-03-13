@@ -151,6 +151,4 @@ function loading() {
 	if (document.URL.indexOf("info.html") != -1) {
 		currentAge();
 	}
-	
-	comicSans();
 }
