@@ -146,22 +146,11 @@ function yearNow() {
 	year.innerHTML = yy + 1900;
 }
 
+function loadingHome() {
+	changeColorHome();
+}
+
 function loading() {
-	if (document.URL.indexOf("info.html") != -1) {
-		return;
-	}
-	else if (document.URL.indexOf("opleiding.html") != -1) {
-		return;
-	}
-	else if (document.URL.indexOf("beroep.html") != -1) {
-		return;
-	}
-	else if (document.URL.indexOf("404.html") != -1) {
-		return;
-	}
-	else {
-		changeColorHome();
-	}
 	if (document.URL.indexOf("index.html") != -1) {
 		return;
 	}
