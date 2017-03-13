@@ -152,3 +152,7 @@ function loading() {
 		currentAge();
 	}
 }
+
+function loadIframe() {
+	document.getElementById("feedback-bg").innerHTML = '<div id="iframe-underlay"><button onclick="feedbackClose()" id="feedback-close-btn"><i class="fa fa-times-circle fa-2x" aria-hidden="true"></i></button></div><iframe id="feedback-form" src="https://docs.google.com/forms/d/e/1FAIpQLSczwHkNmZYnI4pcT91ysyI_KZ5LB6JhZXP2BdJWOMPErkoGNg/viewform?embedded=true">Bezig met laden...</iframe>';
+}
