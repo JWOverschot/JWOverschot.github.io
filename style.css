@@ -447,7 +447,7 @@ p, h2, h3 {
 #articles a p {
 	position: absolute;
 	top: 51%;
-	left: 48%;
+	left: 47%;
 	transform: translate(-50%, -50%);
 	text-align: center;
 	font-size: 1.5em;
