@@ -315,7 +315,7 @@ footer a{
 #li6 {
 	width: 0%;
 	opacity: 0;
-	animation-name: fortythree;
+	animation-name: fifty;
 	animation-duration: 1.2s;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
@@ -323,7 +323,7 @@ footer a{
 #li4 {
 	width: 0%;
 	opacity: 0;
-	animation-name: sixtyfive;
+	animation-name: fiftyfive;
 	animation-duration: 2.5s;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
@@ -355,21 +355,21 @@ footer a{
 		opacity: 1;
 	}
 }
-@keyframes fortythree{
+@keyframes fifty{
 	0% {
 		width: 0%;
 	}
 	100% {
-		width: 43%;
+		width: 50%;
 		opacity: 1;
 	}
 }
-@keyframes sixtyfive{
+@keyframes fiftyfive{
 	0% {
 		width: 0%;
 	}
 	100% {
-		width: 65%;
+		width: 55%;
 		opacity: 1;
 	}
 }
