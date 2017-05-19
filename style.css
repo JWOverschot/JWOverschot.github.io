@@ -500,6 +500,9 @@ p, h2, h3 {
 #articles #img15 {
 	background-image: url("media/kalender-php.png");
 }
+#articles #img16 {
+	background-image: url("media/hospital.png");
+}
 
 #info-top {
 	display: flex;
