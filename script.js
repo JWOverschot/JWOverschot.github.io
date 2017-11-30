@@ -40,8 +40,13 @@ function logoLink() {
 	window.location.href = "index.html";
 }
 
+var textDefault;
+
 function mOver(a) {
 	if( ! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+		if (textDefault) {
+			clearTimeout(textDefault);
+		}
  		document.getElementById("text").innerHTML = a;
 	}
 	else {
@@ -49,7 +54,9 @@ function mOver(a) {
 	}
 }
 function mOut() {
-	document.getElementById("text").innerHTML = "Jis van Overschot";
+	textDefault = setTimeout(function () {
+		document.getElementById("text").innerHTML = "Jis van Overschot";
+	}, 180);
 }
 
 function showMenu() {
