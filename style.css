@@ -282,37 +282,77 @@ footer a{
 	border-radius: 5px;
 }
 
-#li1, #li2, #li3, #li4, #li5, #li6 {
+#html_li, #css_li, #js_li, #php_li, #ruby_li, #ruby-on-rails_li, #ko_li, #cs_li, #node_li {
 	animation-duration: 4s;
 	background-color: #4db8e6;
 	margin-left: 0px;
 }
 
-#li1 {
+#html_li {
 	width: 0%;
 	opacity: 0;
-	animation-name: eighty;
+	animation-name: ninety;
 	animation-duration: 1.3s;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
 }
-#li2 {
+#css_li {
 	width: 0%;
 	opacity: 0;
-	animation-name: eighty;
+	animation-name: ninety;
 	animation-duration: 1.6s;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
 }
-#li3 {
+#js_li {
 	width: 0%;
 	opacity: 0;
-	animation-name: seventy;
+	animation-name: eighty;
 	animation-duration: 1.9s;
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
 }
-#li6 {
+#node_li {
+	width: 0%;
+	opacity: 0;
+	animation-name: eighty-five;
+	animation-duration: 1.9s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+#ko_li {
+	width: 0%;
+	opacity: 0;
+	animation-name: sixty;
+	animation-duration: 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+#php_li {
+	width: 0%;
+	opacity: 0;
+	animation-name: seventy-five;
+	animation-duration: 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+#cs_li {
+	width: 0%;
+	opacity: 0;
+	animation-name: forty;
+	animation-duration: 2.5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+#ruby_li {
+	width: 9%;
+	opacity: 0;
+	animation-name: forty-five;
+	animation-duration: 2.8s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+#ruby-on-rails_li {
 	width: 0%;
 	opacity: 0;
 	animation-name: fifty;
@@ -320,29 +360,40 @@ footer a{
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
 }
-#li4 {
-	width: 0%;
-	opacity: 0;
-	animation-name: fiftyfive;
-	animation-duration: 2.5s;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
-}
-#li5 {
-	width: 9%;
-	opacity: 0;
-	animation-name: fortyfive;
-	animation-duration: 2.8s;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
-}
 
+@keyframes ninety{
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 90%;
+		opacity: 1;
+	}
+}
+@keyframes eighty-five{
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 85%;
+		opacity: 1;
+	}
+}
 @keyframes eighty{
 	0% {
 		width: 0%;
 	}
 	100% {
 		width: 80%;
+		opacity: 1;
+	}
+}
+@keyframes seventy-five{
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 75%;
 		opacity: 1;
 	}
 }
@@ -355,6 +406,15 @@ footer a{
 		opacity: 1;
 	}
 }
+@keyframes sixty{
+	0% {
+		width: 0%;
+	}
+	100% {
+		width: 60%;
+		opacity: 1;
+	}
+}
 @keyframes fifty{
 	0% {
 		width: 0%;
@@ -364,7 +424,7 @@ footer a{
 		opacity: 1;
 	}
 }
-@keyframes fiftyfive{
+@keyframes fifty-five{
 	0% {
 		width: 0%;
 	}
@@ -373,12 +433,21 @@ footer a{
 		opacity: 1;
 	}
 }
-@keyframes fortyfive{
+@keyframes forty-five{
 	0% {
 		width: 9%;
 	}
 	100% {
 		width: 45%;
+		opacity: 1;
+	}
+}
+@keyframes forty{
+	0% {
+		width: 9%;
+	}
+	100% {
+		width: 40%;
 		opacity: 1;
 	}
 }
