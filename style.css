@@ -213,7 +213,6 @@ footer a{
 #feedback-form {
 	border: none;
 	border-radius: 5px;
-	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.45);
 	z-index: 20;
 }
 
@@ -246,13 +245,15 @@ footer a{
 	outline: none;
 	padding: 0;
 	position: relative;
-	top: -1px;
+	top: 5px;
+    	right: 3px;
 	float: right;
 	pointer-events: all;
 }
 
 #feedback-close-btn:hover {
-	color: white;
+	color: #888888;
+    	cursor: pointer;
 }
 
 .text-box-all {
@@ -747,13 +748,12 @@ p, h2, h3 {
 	}
 
 	#feedback-form, #iframe-underlay {
-		height: 640px;
+		height: 40%;
 		width: 400px;
 	}
 
 	#feedback-close-btn {
-		top: -2px;
-		left: 355px;
+		left: 364px;
 		float: initial;
 	}
 
