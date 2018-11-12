@@ -168,7 +168,7 @@ content {
 	left: 80%;
 }
 
-#menu #links hr {
+nav#menu + nav#links + hr {
     width: 95%;
     border-style: solid;
     display: none;
