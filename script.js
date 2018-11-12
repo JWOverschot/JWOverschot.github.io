@@ -68,12 +68,14 @@ function showMenu() {
 		y.style.height = "100%";
 		x.style.display = "block";
 		z.style.display = "block";
+		x.nextElementSibling.nextElementSibling.style.display = "block"
 		value = 2;
 	}
 	else if(value==2) {
 		y.style.height = "initial";
 		x.style.display = "none";
 		z.style.display = "none";
+		x.nextElementSibling.nextElementSibling.style.display = "none"
 		value = 1;
 	}
 }
