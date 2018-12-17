@@ -1,0 +1,130 @@
+/* Variables */
+:root {
+	--text-color: #000000;
+	--selection-color: #fea22ed1;
+}
+
+/* Multy use styles */
+.icons {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.icons.material-icons, .icons.mdi {
+	font-size: 2rem;
+}
+.icons.material-icons {
+    margin-top: 0.06em;
+}
+
+a, a:visited {
+	color: var(--text-color);
+	text-decoration: none;
+}
+a:hover {
+	mix-blend-mode: overlay;
+}
+
+::selection {
+  background: var(--selection-color);
+  color: white;
+}
+::-moz-selection {
+  background: var(--selection-color);
+  color: white;
+}
+
+/* Main CSS */
+html, body, .container {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.3rem;
+}
+
+div.bg-img {
+	background-image: url(imgs/profile-pic-website.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(40px);
+	position: fixed;
+	z-index: -10;
+	transform: scale(1.1);
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	background-image: linear-gradient(145deg, rgba(240, 104, 104, 0.5), rgba(250, 181, 122, 0.5),  rgba(237, 247, 152, 0.5));
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+	"."
+	"content"
+	".";
+}
+
+main {
+	grid-area: content;
+	justify-items: center;
+	align-items: center;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+	"logo" 
+	"name" 
+	"links";
+}
+
+main img.logo {
+	grid-area: logo;
+	width: 10em;
+	align-self: end;
+}
+
+main h1#name {
+	grid-area: name;
+	text-align: center;
+	padding: 0.5em;
+}
+
+main div.links {
+	grid-area: links;
+	align-self: start;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"github linkedin mail";
+	align-items: center;
+	grid-gap: 1.3em;
+}
+
+main div.links a {
+	width: 3.4em;
+    height: 3.4em;
+}
+
+main .links .icons.material-icons, main .links .icons.mdi{
+	font-size: 3em;
+}
+
+main div.links#github {
+	grid-area: github;
+}
+
+main div.links#linkedin {
+	grid-area: linkedin;
+}
+
+main div.links#mail {
+	grid-area: mail;
+}
