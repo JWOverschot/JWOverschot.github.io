@@ -129,7 +129,7 @@ function currentAge() {
 	var yy = today.getYear();
 	var age = document.getElementById("age");
 
-	if (dd>=2 && mm>=8) {
+	if ((dd>=2 && mm>=8) || mm > 8) {
 		age.innerHTML =  yy - 99;
 	}
 	else {
