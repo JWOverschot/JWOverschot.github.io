@@ -5,6 +5,11 @@
 	--hover-color: #A84200;
 }
 
+/* Base styling */
+body {
+	background-color: black;
+}
+
 /* Multy use styles */
 .icons {
 	-webkit-user-select: none;
