@@ -16,18 +16,23 @@
 
 	<title>Website Design</title>
 
-	<link rel="icon" href="media/icon.png" type="image/png" sizes="64x64">
+	<link rel="icon" href="imgs/fav-icon.png" type="image/png" sizes="64x64">
 	<link rel="stylesheet" href="style3.css">
-	<link rel="stylesheet" href="scrollbar.css">
+	<!-- <link rel="stylesheet" href="scrollbar.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	<!-- Icons -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-  	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.2.89/css/materialdesignicons.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.2.89/css/materialdesignicons.min.css">
+	<!-- Scripts -->
+	<script lang="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
+	<script lang="text/javascript" src="main.js"></script>
 </head>
+
 <body>
 	<div class="bg-img"></div>
-	<div class="container">
+	<div class="bg-gradiant"></div>
+
+	<div id="home" class="container">
 		<main>
 			<img class="logo" src="imgs/JW-logo.svg" alt="JW-logo">
 			<h1 id="name">Jis van Overschot</h1>
@@ -45,8 +50,15 @@
 		</main>
 	</div>
 
-	<div class="container">
+	<div id="about-me" class="container">
 		<h2>About me</h2>
+		<p>I'm an <span id="age"></span> year old software developer, living in the city of <a class="map-curs"
+				href="https://www.google.com/maps/place/Dordrecht" target="_blank">Dordrecht</a> in The Netherlands.</p>
+		<p>I'm always interested to learn about new technologies/developments</p>
+	</div>
+
+	<div id="footer" class="container">
+		<p>&#xA9 <span id="year">1970</span> JWOverschot</p>
 	</div>
 </body>
 </html>
