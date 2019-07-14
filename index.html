@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Jis van Overschot</title>
-		<meta name="author" content="Jis van Overschot">
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-		<link rel="icon" href="media/icon.png" type="image/png" sizes="64x64">
-		<script src="script.js" type="text/javascript"></script>
-		<script src="https://use.fontawesome.com/38ac67d2bb.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body onload="loadingHome();comicSans();">
-		<img id="logo-cutout" src="media/JW-logo-cutout.svg" draggable="false">
-		<div class="box">
-			<div id="box1"></div>
-			<div id="box2"></div>
-			<div id="box3"></div>
-		</div>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Jis van Overschot">
+	<meta name="copyright" content="JWOverschot">
+	<meta name="language" content="EN">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="lightgreen">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="lightgreen">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="lightgreen">
 
-			<main id="fontcolor">
-				<a class="home-a" onclick="changeColorHome()"><h1 id="text">Jis van Overschot</h1></a>
-				<nav>
-					<a class="home-a" onmouseover="mOver('Info')" onmouseout="mOut()" href="info.html"><i class="fa fa-info-circle fa-4x" aria-hidden="true"></i></a>
-					<a class="home-a" onmouseover="mOver('Portfolio')" onmouseout="mOut()" href="portfolio.html"><i class="fa fa-folder-open fa-4x" aria-hidden="true"></i></a>
-					<a class="home-a" onmouseover="mOver('GitHub')" onmouseout="mOut()" href="https://github.com/JWOverschot" target="_blank"><i " class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-					<a class="home-a" onmouseover="mOver('Linkedin')" onmouseout="mOut()" href="https://linkedin.com/in/JWOverschot" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-					<a class="home-a" onmouseover="mOver('Mail')" onmouseout="mOut()" href="mailto:99040091@mydavinci.nl?subject=Mail van JWOverschot website" target="_blank"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
-				</nav>
-			</main>
-	</body>
+	<title>Website Design</title>
+
+	<link rel="icon" href="new%20website%20design/imgs/fav-icon.png" type="image/png" sizes="64x64">
+	<link rel="stylesheet" href="new%20website%20design/style3.css">
+	<!-- <link rel="stylesheet" href="scrollbar.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/3.2.89/css/materialdesignicons.min.css">
+	<!-- Scripts -->
+	<script lang="text/javascript" src="https://momentjs.com/downloads/moment.js"></script>
+	<script lang="text/javascript" src="new%20website%20design/main.js"></script>
+</head>
+
+<body>
+	<div class="bg-img"></div>
+	<div class="bg-gradiant"></div>
+
+	<div id="home" class="container">
+		<main>
+			<img class="logo" src="imgs/JW-logo.svg" alt="JW-logo">
+			<h1 id="name">Jis van Overschot</h1>
+			<div class="links">
+				<a id="github" href="https://github.com/JWOverschot" target="_blank">
+					<i class="mdi mdi-github-circle icons"></i>
+				</a>
+				<a id="linkedin" href="https://linkedin.com/in/JWOverschot" target="_blank">
+					<i class="mdi mdi-linkedin-box icons"></i>
+				</a>
+				<a id="mail" href="mailto:schoolvanjis@gmail.com?subject=Mail van JWOverschot website" target="_blank">
+					<i class="material-icons icons">email</i>
+				</a>
+			</div>
+		</main>
+	</div>
+</body>
 </html>
