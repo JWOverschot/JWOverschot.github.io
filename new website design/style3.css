@@ -112,7 +112,7 @@ main img.logo {
 main h1#name {
 	grid-area: name;
 	text-align: center;
-	padding: 0.5em;
+	padding: 0.5em 0.1em;
 }
 
 main div.links {
