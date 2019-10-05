@@ -119,10 +119,10 @@ main div.links {
 	grid-area: links;
 	align-self: start;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	grid-template-areas:
-	"github linkedin mail";
+	"github linkedin twitter mail";
 	align-items: center;
 	grid-gap: 1.3em;
 }
